@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration & Login</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ccc">
+        <div class="cc" id="cc1" onclick="back('red')"></div>
+        <div class="cc" id="cc2" onclick="back('green')"></div>
+        <div class="cc" id="cc3" onclick="back('blue')"></div>
+        <div class="cc" id="cc4" onclick="back('yellow')"></div>
+    </div>
+
+    <div id="form1">
+        <h1 id="tag1">User Registration Form</h1><br>
+        <label class="label0">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label class="label0">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label class="label0">Phone</label><br>
+        <input type="tel" id="phone" placeholder="Enter your phone"><br><br>
+        <label class="label0">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password"><br><br>
+        <button type="button" onclick="submit()">Sign Up</button>
+        <button type="button" onclick="lgn()">Log In</button>
+    </div>
+
+    <div id="form2">
+        <h1 id="tag2">User Login Form</h1><br>
+        <label class="label0">Email</label><br>
+        <input type="email" id="loginEmail" placeholder="Enter your email"><br><br>
+        <label class="label0">Password</label><br>
+        <input type="password" id="loginPassword" placeholder="Enter your password"><br>
+        <a href="#">Forgot Password?</a><br><br>
+        <button type="button" onclick="loy()">Login</button>
+        <button type="button" onclick="su()">Sign Up</button>
+    </div>
+   <script src="action.js"></script>
+</body>
+</html>
